@@ -52,7 +52,7 @@ THIRD_PARTY_APPS = (
 )
 
 LOCAL_APPS = (
-    'project.api',
+    'project.moviedb',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -99,11 +99,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #     }
 # }
 
- DATABASES = {
-     'default': {
+DATABASES = {
+    'default': {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'mymdb',
-    'USER': 'mymdb',
+    'NAME': 'moviedb',
+    'USER': 'moviedb',
     'PASSWORD': 'development',
     'HOST': '127.0.0.1',
     'PORT': '5432',
