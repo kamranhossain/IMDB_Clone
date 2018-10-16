@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class MoviedbConfig(AppConfig):
+class CoreConfig(AppConfig):
     name = 'moviedb'
